@@ -1,0 +1,73 @@
+--------------------------VARIABLES-------------------------------
+creer une variable var nom = 
+let,const,var
+let quand la valeur peut changer et const pour les valeurs qui ne changent pas.
+valeur lettre chiffre ou texte ou _
+Entier : 123 en negatif si besoin
+/n pour saut de ligne
+on peut additionner des chaine ("hfue"+ "f" fera "hfuef") concatener +
+ex
+let num = 255;
+let txt = "255";
+let bin = true;
+let flt = 7.23; 
+-------------------------
+Tableau permet de d'avoir/ sauvgarder une liste d'information :
+avec tous les variables : 
+var tab = [1, 2, "hello"]
+index d'un Tableau commence a zero, donc si je veut le premier
+tab[0]
+------------------------
+si on veut saugarder plusieurs information differents on fait des objet ; 
+var eleve = {
+  nom: 'Jean',
+  moyenne: 15
+}
+et si on veut rappeler on fait : 
+eleve.nom
+on peut rapjouter un element dans lobjet  eleve.taille = 140
+et si on rappel eleve le tanleau objet contien linformation 
+---------------------------
+stocker dans une varible un boolean / true ou false
+
+--------------------------CONDITIONS-------------------------------
+en gros un boolen qui dis oui ou non
+soit : true, false, >, <, >=, <=, ==(si c'est égal), !=(valeur differente),===(egal mais si le type de variable est identique)
+if = si
+else = sinon
+else if = sinon si
+et = &&
+ou = ||
+
+if (marc.age >=18 && marc.age <=25 || marc.age >= 70) {
+
+}else if {
+
+}else{
+
+}
+length, calcule la longeur du mot. 
+
+---turneur console.log---
+on peut eviter de mettre if et else // Affiche-moi
+
+console.log(marc.age >= 18 ? "tu es majeur' : 'tu es mineur')
+
+? = esque ce quand est vrai tu met 
+: = sinon tu met
+
+----
+
+ON A AUSSI LE SWITCH  ET CASE : 
+permet de tester des valeur mais sans condition pu additions mais plusieurs
+
+ switch (marc.age) {
+    case 18:
+      console.log("tu as 18 ans ")
+      break
+      case 25:
+      console.log("tu as 25 ans ")
+      break
+    default:
+      console.log("joyeux anniveaisaire ") 
+  }

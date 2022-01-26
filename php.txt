@@ -1,0 +1,14 @@
+creer une variable $nom = 
+valeur lettre chiffre ou texte "";
+Entier : 123 en negatif si besoin 
+-------------------------
+Tableau permet de d'avoir/ sauvgarder une liste d'information :
+avec tous les variables : 
+$tab = [1, 2, "hello"]
+------------------------
+si on veut saugarder plusieurs information differents on fait ; 
+$eleve = [
+  'eleve' => 'Jean',
+  'moyenne' => 15
+]
+on rappel avec $eleve['nom']

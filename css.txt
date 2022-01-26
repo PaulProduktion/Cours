@@ -1,0 +1,119 @@
+h1 et tous sont des selecteurs 
+class => .nom de la classe // bien mettre un .
+id => #nom de l'id // bien mettre un #
+preciciser table h2
+h2+p : prend un voison après : la c'est la paragraphe
+h2 ~ p : prend tous les voison p apres le h2
+psuedo-class:
+:hover (quand on le survole)
+pseudo-element
+-----------------------------------------------
+dans le head lier le doc : link href
+-----------------------------------------------
+on peut le mettre dans le html : a coter du selecteur h1 style="" 
+on peut mettre dans la partie head <style>h2{ color : red ; </style>
+/* */ Mettre un commentaire
+Lien utlisier des padding
+-----------------------------------------------
+Unitée de mesure :
+px : =1 pixel
+impression : mm,cm,in,pt,pc,
+% = va depandre de la largeur du conteneur : bien pour la disposition d'élément. (pas la hauteur height);
+vh,vw : relative  a la hauteur et largeur de la fenetre
+em: depand taille de police de notre element parent
+rem: depand taille de police de la racine (en general body)
+-----------------------------------------------
+TRANSFORM ;
+Permet de chagner un contenu en grossi,decaler,
+translate,scale,rotate,skew
+:hover peut etre jolie
+on peut mettre le 3d, en utlisisant perspective, pour la profondeur.
+-----------------------------------------------
+ANIMATION ET TRANSITION :
+transition avec le temps.
+KEYFRAMES:creer une fonction de animation que on peut rappeler(from ou to : 0%,50%,100%)
+animation : 'rappeler la fonction'
+------------------------------------------------
+MEDIA QUERY / RESPONSIVE : 
+permet de adapter a la page en screen, et voir avec les px de la page pour mettre les paramettres 
+@media screen and (max-width: 740px) {
+  .body{ 
+    on met ce quon veut dedans qu'il doit adapter a la page
+  }
+}
+------------------------------------------------
+POSITION  : TOUJOUR STATIC
+il survole d'autre element 
+absolute ; top,bottom,left,right (position : absolute ; top:0; left:0;) Permet de posotionner l'element par rapport a le fenetre 
+en px
+Fixed : fige l'element par rapport a la page ; top,bottom,left,right (position : absolute ; top:0; left:0;)
+Relative : Pareil que static mais je peut faire bouger => top,bottom,left,right
+on peut mettre en default en relative d'autre base css 
+Sticky : comme un fixed mais il disparait quand il passe sont parent
+-----------------------------------------------
+FLOAT : 
+ indique qu'un élément doit être retiré du flux normal et doit être placé sur le côté droit ou sur le côté gauche de son conteneur. 
+ Le texte et les autres éléments en ligne (inline) entoureront alors l'élément flottant. L'élément est retiré du flux normal de la page 
+ mais s'inscrit toujours dans le flux (contrairement au positionnement absolu). LEFT, right
+ IL change les inline. 
+ si ca prend trop il faut faire un CLEAN : right, left, both,none
+overflow : hidden = neutralize les float : un clear.
+-----------------------------------------------
+mettre en priorite:
+id passe avant class
+et si ont veut vraiment mettre ne devant ont peut mettre : !important
+Mais a utiliser rarement
+-----------------------------------------------
+Police personnaliser:
+@font-face
+font-family et src
+Fichier OTF
+creer un dossier dans le projets fonts et rappeler
+font-weight,font-style,font-display
+OU ALORS GOOGLE FONTS:
+prendre le link : mettre dans le html avant le css fichier 
+-----------------------------------------
+* : prend tous le css
+img : mettre en 100% et auto
+color : couleur du texte
+font-size : changer la taille de la police
+font-weight : graissage de la police
+width : largeur (on peut definir  en x ou %) 
+fonction calc permet de faire loperation en % et px ( 100%- 357px)
+hight : hauteur
+padding : marge interieure 
+padding-left/right-bottom/top
+margin : marge exterieure
+border : bordure
+display-block / inline
+10 px : 20px = hauteur et largeur
+line-height : hauteur de ligne caractere (entre 1,1: 1,6)
+letter-spacing : espacer les lettres. en px
+font-family : la police que l'on utilise. mettre celle qu'on veut et fini par sans-sherif.
+font-style : normal ou Italic
+font-weight : entre 100/900 gras de la police / bold, 
+text-align : center, justify, left, right (inline-block)
+text-indent : indenter le texte 
+text-align-last : permet de prenrdre la derniere phrase et mettre droit gauche 
+text-trasform : unpercase (majuscule), capitalize
+overflow-wrap : break-word = si trop de mot long permet de revenir a la ligne 
+overflow : hidden = neutralize les float : un clear. 
+hyphens : none, auto, manual = permet de mettre un - a la fin du mot et renvenir / mettre &shy; dans la html
+text-decoration: none,underline,overline,line-throou = mettre des lignes
+classe nom selecteur:Hover : quand on passe la souris 
+z-index : permet de modifier la superposition un element
+ qui passe au dessus de qui mettre position : relative
+background :
+color : couleur de fond ;
+image : image de fond, :url(chemin vers le ficher)
+repeart : si limage est trop petite (no-repeat, repeat)
+position :permet de mettre lelement (top,left, center,%, px,)
+size : permet taille du fond (contain, cover,%,px)
+attachement : image fixer a limage (scroll,fixed, local, )
+clip : 
+origin: 
+linear-gradient : transparence : ex = to bottom, #000, #0008), center top / cover url( "") fixed
+BOX-Sizing : 
+border-box : largeur prend les bordeur et les padding.
+opacity : transparence d'un element entre 0 et 1
+list-style : none enleve les puces, square, none, upper-roman

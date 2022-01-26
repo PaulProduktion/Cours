@@ -1,0 +1,47 @@
+meta charset="utf-8" : pour les ortographes
+meta name="description" content="LeRest : decrire 
+----------------------------------------------
+p : paragraphe
+h1,2/6 : titre
+lorem : faux texte / *nbre
+<br> saut de ligne 
+strong : mettre en gras
+Italique : em
+sup : format exposant 22
+Listes ; a point : ul - li ; numéro ol 
+pre : permet de conserver les espaces et texte 
+hr : traces une ligne
+dd : pour une definition ou sommaire 
+a href="" target="_blank" : aller vers le lien / ../ reviens en arrières target blakc ouvre ou nouvel onglet
+a href="#le nom" direction vers le mot et vers le mot : id="le nom"
+<img src="" alt=""> image
+table : --------------------------------------
+tr = ligne ;  td = cellule 
+th : entête de tableau
+td colspan=''2'' permet d'alligner la colone jusqu'au bout avec la valeur
+td rawspan=''2'' permet de prendre deux ligne 
+thead : haut du tableau 
+tbody : corps du tableau 
+tfoot : bas du rableau type description ou autre 
+iframe : utiliser des videos ou carte 
+DIV : permet de diviser du contenu, entoure des bloc, on peut mettre different attribut class, pour du css
+SPAN : entoure des mots ou phrases, on peut mettre des class
+NAV, ARTICLE, SECTION, SIDE : comme div mais avec sa signification, theme / meilleur pour la lecture
+HEADER, FOOTER : groupe de contenu / represente mieux le conrenu et la lecture 
+-----formulaire------------------------------
+FORM, : attribut ; action et methode 
+fieldset, legend
+label for=""
+input type= password,text,email,checkbox,radio,; id=""
+placeholder : valeur grisser de se quil faut mettre dans le champ
+autocomplet : permet de remplir automatiquement
+Autofocus : met le curseurs automatiquement 
+inputmode : quel clavier (mobile) decimal ou a chiffre
+input type=''reset'' supprimer les donner entres
+input file : type=''file
+type : submit ; valeur:date, button, range, monthn  number, tel,
+required : permet de remplir absolutment si il ya un submit 
+textarea : message 
+select : crer une liste deroulante ; mettre option (multiple)
+optgroup : permet de regrouper une selection diverse theme 
+button : 0

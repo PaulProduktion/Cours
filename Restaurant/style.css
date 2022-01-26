@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+.Header {
+  background: gray;
+  padding: 20px;
+  color: white;
+}
+
+.Header-tittle {
+  margin-top: 0;
+}
+
+.Header-nav {
+  margin: 20px 0;
+  text-align: center;
+  background-color: aqua;
+}
+.Header-nav a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+.Header-nav a:hover {
+  text-decoration: underline;
+}
+
+.Header img {
+  width: 100%;
+  height: auto;
+}
+
+.main {
+  background: lightgrey;
+  padding: 20px;
+}
+.main p {
+  text-align: justify;
+  margin-bottom: 1, 5em;
+}
+
+.Footer {
+  background: gray;
+  padding: 10px 20px;
+}
+
+.button {
+  color: #fff;
+  background: #5834cf;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 0.4em 0.5em;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 10px;
+}

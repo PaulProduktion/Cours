@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mon restaurant, contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="TitreContact">Nous contacter</h1>
+      <nav>
+        <a href="index.html" title="Acceuil">Acceuil</a>
+        <a href="Menu.html" title="Menu">Menu</a>
+        <a href="contatc.html" title="Contactez nous">Contactez nous </a>
+      </nav>
+      <img
+        src="img/reservation.jpg"
+        width="1260"
+        height="366"
+        alt="headerphoto"
+      />
+    </header>
+    <section>
+      <h2>Ou nous rtouver</h2>
+      <address>123 rue de la demontration 75002 Paris</address>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10506.319541028346!2d2.24118345!3d48.82807675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67aef90217605%3A0x8899d24126d93f89!2sPatinoire%20de%20Boulogne-Billancourt!5e0!3m2!1sfr!2sfr!4v1632930768144!5m2!1sfr!2sfr"
+        width="1200"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+      <h2>nous envoyes un email</h2>
+      <form action="contatc.html">
+        <div>
+          <label for="email">email<sub>*</sub> </label>
+          <input
+            type="email"
+            required
+            id="email"
+            name="email"
+            placeholder="Votre mail"
+          />
+        </div>
+        <div>
+          <label for="name">Nom <sub>*</sub></label>
+          <input type="text" name="votre nom" id="name" required />
+        </div>
+        <div>
+          <label for="text">Votre text</label>
+          <textarea
+            name="text"
+            id="text"
+            required
+            placeholder="votre texte"
+          ></textarea>
+        </div>
+
+        <button type="submit">Envoyez votre email</button>
+      </form>
+    </section>
+  </body>
+</html>
